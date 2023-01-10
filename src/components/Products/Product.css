@@ -1,0 +1,60 @@
+
+
+.card-title{
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 160%;
+}
+.footer-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-price{
+  font-weight: 700;
+  font-size: 12.8px;
+  line-height: 160%;
+}
+
+.circle{
+  width: 12px;
+  height:12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:0.5rem;
+  cursor: pointer;
+}
+.circle-active{
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:0.5rem;
+  cursor: pointer;
+  outline: 1px solid rgb(86, 85, 85);
+  outline-offset: 1px;
+  padding: 6px;
+}
+
+.circle-green-yellow{
+  background-color: #99C3CC;
+}
+.circle-brown{
+  background-color: #CC9999;
+}
+.circle-purple{
+  background-color: #CB99CC;
+}
+.circle-green{
+    background-color: #BCD9B2;
+
+}
+
+@media screen and (max-width: 763px) {
+  .footer-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+}
+

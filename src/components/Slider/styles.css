@@ -1,0 +1,123 @@
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-prev{
+  display: none;
+}
+
+:root {
+    --swiper-theme-color: black;
+    --swiper-navigation-size: 22px
+}
+
+.swiper-button-next {
+  border: 1px solid #e2e3e4;
+  padding: 0.5rem 1rem !important;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-img{
+  opacity: 0.6;
+}
+.card-img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.card-title{
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 160%;
+}
+.footer-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-price{
+  font-weight: 700;
+  font-size: 12.8px;
+  line-height: 160%;
+}
+
+.circle{
+  width: 12px;
+  height:12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:0.5rem;
+  cursor: pointer;
+}
+.circle-active{
+  max-width: 12px;
+  max-height:12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:0.5rem;
+  cursor: pointer;
+  outline: 2px solid black;
+  outline-offset: 1px;
+  padding: 5px;
+}
+
+
+.circle-green-yellow{
+  background-color: #99C3CC;
+}
+.circle-brown{
+  background-color: #CC9999;
+}
+.circle-purple{
+  background-color: #CB99CC;
+}
+.circle-green{
+    background-color: #BCD9B2;
+}
+
+@media screen and (max-width: 963px) {
+  .card-img{
+  opacity: 1;
+}
+.swiper-button-next {
+  display: none;
+}
+
+}
+@media screen and (max-width: 767px) {
+  .card-img{
+  opacity: 1;
+}
+.swiper-button-next {
+  display: none;
+}
+
+}

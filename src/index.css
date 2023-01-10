@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("./fonts/Avenir.ttc") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "AvantGardePro";
+    src: url("./fonts/ITCAvantGardePro-Bk.otf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "AvantGardePro";
+    src: url("./fonts/ITCAvantGardePro-Bold.otf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "AvantGardePro";
+    src: url("./fonts/ITCAvantGardePro-Demi.otf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "AvantGardePro";
+    src: url("./fonts/ITCAvantGardePro-Md.otf") format("truetype");
+    font-style: normal;
+}
+
+html::-webkit-scrollbar {
+    width: 0.625rem;
+    height: 0.625rem;
+  }
+
+html::-webkit-scrollbar-thumb {
+    background-color: #bec1d9;
+    border-radius: 0.625rem;
+    border: 3px solid #ffffff;
+    transition: all 1s ease;
+  }
+
+html::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+html,body {
+  font-size: 16px;
+  background-color: #fff !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-family: "Avenir"  ;
+}
+
+.font-AverGardePro{
+    font-family: "AvantGardePro"  !important;
+}
+
